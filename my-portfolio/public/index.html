@@ -42,8 +42,8 @@
 
   <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
 
-  <script>
-    // Initialize Firebasehttps://github.com/Rosenmatt1/chuck-norris-jokes.git
+  <!-- <script>
+    // Initialize Firebase
     var config = {
       apiKey: "AIzaSyA08HfUtp38ShfSNsl6-SeuNsEPRyAyJX4",
       authDomain: "mateo-portfolio-projects.firebaseapp.com",
@@ -53,14 +53,14 @@
       messagingSenderId: "180833336243"
     };
     firebase.initializeApp(config);
-  </script>
+  </script> -->
 
   <meta property="og:url" content="https://mateo-portfolio-projects.firebaseapp.com/" />
   <meta property="og:description" content="Matthew Rosenberg Denver Web Developer" />
   <meta property="og:image" content="%PUBLIC_URL%/mateo-site.png" />
 
 
-  <title>Matthew Rosenberg Portfolio: Full Stack Web Developer Denver CO</title>
+  <title>Jimbo Tabens Portfolio: Full Stack Web Developer Denver CO</title>
 
 </head>
 
@@ -81,6 +81,31 @@
 
   <!-- mask for polfill -->
   <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBllzSt3wXkrGgBwbQUNKTtLqPk-5JnDUo",
+    authDomain: "test-portfolio1.firebaseapp.com",
+    databaseURL: "https://test-portfolio1.firebaseio.com",
+    projectId: "test-portfolio1",
+    storageBucket: "test-portfolio1.appspot.com",
+    messagingSenderId: "155945244603",
+    appId: "1:155945244603:web:895426438ff0b61b77569e",
+    measurementId: "G-7DVJBRCWYB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
   <!-- tags for semantic-ui -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
